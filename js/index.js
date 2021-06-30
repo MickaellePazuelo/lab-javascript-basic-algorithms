@@ -22,16 +22,15 @@ if (hacker1.length > hacker2.length) {
 }
 
 // Iteration 3: Loops
+// 3.1 C A P I T A L  & SPACE BTW
 var str = `${hacker1}`;
 var res = str.toUpperCase() + " ";
 console.log(res);
 
-//let hacker1 = "Micka";
-//let driver = "";
-//for (let i = 0; i < hacker1.length; i++) {
-//   return (driver = driver + hacker1[i]);
-// }
-// console.log(driver);
-// console.log(driver.toUpperCase());
-
 console.log (res.split("").join(" "));
+
+//3.2 REVERSE LETTER
+var str2 = `${hacker2}`;
+console.log(str2.split("").reverse("").join(""));
+
+//3.3
